@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# IntelliJ IDEA
+/shelf/
+/workspace.xml
+/queries/
+/dataSources/
+/dataSources.local.xml
+/httpRequests/
+
+# Outras IDEs
+.idea/
+*.iml
