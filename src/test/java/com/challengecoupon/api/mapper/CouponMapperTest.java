@@ -48,7 +48,7 @@ class CouponMapperTest {
         assertEquals(2.0, dto.getDiscountValue());
         assertEquals(coupon.getExpirationDate(), dto.getExpirationDate());
         assertEquals(Status.ACTIVE, dto.getStatus());
-        assertTrue(dto.isPublished());
+        assertTrue(dto.getPublished());
     }
 
     private Coupon setIdAndStatusForTest(Coupon coupon, UUID id, Status status) {
