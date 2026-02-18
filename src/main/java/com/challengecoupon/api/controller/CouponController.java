@@ -20,7 +20,6 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class CouponController {
 
-    // Injete cada caso de uso separadamente:
     private final CreateCouponService createCouponService;
     private final DeleteCouponService deleteCouponService;
     private final GetCouponByIdService getCouponByIdService;
